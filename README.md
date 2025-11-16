@@ -1,2 +1,3 @@
 # Soulsync-Fitness-Website
-For the website repository in application development.
+For the repository of the website, soulsync-fitness in application development. You can upload your assigned pages/component to the designated folder.
+
