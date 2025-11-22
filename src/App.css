@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue:wght@400;700&family=Permanent+Marker&display=swap');
+
+.navbar-title {
+  position: absolute;
+  left: 32px;
+  top: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  user-select: none;
+  z-index: 60;
+}
+
+.navbar-title .fit {
+  font-family: 'Anton', 'Bebas Neue', 'Arial Black', Impact, sans-serif;
+  font-size: 58px;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  text-shadow: 0 6px 18px rgba(0,0,0,0.7);
+}
+
+.navbar-title .explore {
+  font-family: 'Permanent Marker', 'Brush Script MT', cursive;
+  font-size: 44px;
+  color: #ff6a00;
+  margin-top: -10px;
+  margin-left: 2px;
+  transform: translateY(-8px) rotate(-8deg);
+  text-shadow: 0 6px 12px rgba(0,0,0,0.45);
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  width: 100%;
+}
+
+.nav-link a {
+  font-family: 'Bebas Neue', 'Arial Black', Impact, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 2px 8px;
+  transition: color 0.2s, background 0.2s;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  background: none;
+}
+
+.nav-link a.home-link,
+.nav-link a.contact-link {
+  color: #ff6a00;
+}
+
+.nav-link a:hover {
+  color: #ff6a00;
+  background: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400;700&family=Permanent+Marker&display=swap');
+
+* html,
+body {
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 32px;
+  height: 90px;
+  z-index: 50;
+  padding-left: 170px;
+}
+
+.nav-link a.active,
+.nav-link a[aria-current="page"] {
+  color: #ff7a00;
+}
+
+.btnhvr a:hover {
+  background-color: rgb(66, 65, 64);
+  height: 50px;
+  border-radius: 12px;
+  width: auto;
+  transition: ease-in-out;
+}
+
+.lbtn {
+  background-color: #f04e31;
+  height: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.lbtn:hover {
+  background-color: #d43c20;
+  transition: ease-in-out 0.3s;
+  animation-delay: 0.1ms;
+}
+
+.tle {
+  text-align: left;
+  font-style: italic;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.bgd-nav {
+  display: flex;
+  justify-content: center;
+
+}
+
+.head {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.program_display {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  border: 12px;
+}
+
+.nav_program {
+  width: 210%;
+  height: 350px;
+  margin-top: 40px;
+  border: solid 2px black;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero {
+  position: relative;
+  height: 90vh;
+  background-image: url(Assets/BackgroundBody.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  text-align: center;
+  color: #fff;
+  padding: 20px 30px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.hero-title {
+  margin: 0 0 20px 0;
+  line-height: 0.9;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-title .script {
+  font-family: 'Permanent Marker', 'Brush Script MT', cursive;
+  font-size: 60px;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0 8px;
+  line-height: 1.1;
+}
+
+.hero-title .highlight,
+.hero-title .accent {
+  font-family: 'Bebas Neue', 'Arial Black', Impact, sans-serif;
+  font-size: 50px;
+  color: #ff7a00;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 0 8px;
+  line-height: 1.05;
+}
+
+.cta-btn {
+  margin-top: 20px;
+  margin-left:41%;
+  background: #f04e31;
+  color: #fff;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.12s ease;
+}
+
+.cta-btn:hover {
+  background: #d43c20;
+  transform: translateY(-3px);
+}
+
+
+
+@media (max-width: 800px) {
+
+  .hero-title .highlight,
+  .hero-title .accent {
+    font-size: 44px;
+  }
+
+  .hero-title .script {
+    font-size: 32px;
+  }
+}
